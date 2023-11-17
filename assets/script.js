@@ -6,11 +6,12 @@ function listTopics(){
         console.log(topics[x])
  }
 }
+
 function selectTopics() {
 if (randomTopic === 'HTML') {
-console.log ("Let's study HTML!");
+    console.log ("Let's study HTML!");
 } else if (randomTopic === 'CSS') {
-console.log ("Let's study CSS!");
+    console.log ("Let's study CSS!");
 } else if (randomTopic === 'Git') {
     console.log ("Let's study git!");
 } else if (randomTopic === 'JavaScript') {
@@ -19,7 +20,7 @@ console.log ("Let's study CSS!");
     console.log('Please try again!');
 }
 } 
-console.log ('Here are the topics we learned through Prework:')
+    console.log ('Here are the topics we learned through Prework:')
 listTopics();
-console.log ('Which topic should we study first?')
+    console.log ('Which topic should we study first?')
 selectTopics()
